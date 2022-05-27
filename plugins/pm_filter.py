@@ -407,10 +407,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Is_Movie_Time')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/+5s5iZlCkrg85NDll')
         ], [
-            InlineKeyboardButton('🌟 Main Channel', url='https://t.me/Is_Movie_Time'),
-            InlineKeyboardButton('💥 Bot Movie Channel', url='https://t.me/Is_Movie_Time')
+            InlineKeyboardButton('🌟 Main Channel', url='https://t.me/HuB_LinkZz'),
+            InlineKeyboardButton('💥 Bot Movie Channel', url='https://t.me/movie_time_botonly')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -547,7 +547,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
-            InlineKeyboardButton('♻️', callback_data='rfrsh')
+            InlineKeyboardButton('♻️ REFRESH', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
