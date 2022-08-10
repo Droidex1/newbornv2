@@ -47,8 +47,8 @@ async def start(client, message):
             InlineKeyboardButton('🔎 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('⚡ Updates', url='https://t.me/+5s5iZlCkrg85NDll')
             ],[
-            InlineKeyboardButton('🌟 Movie Channel', url='https://t.me/HuB_LinkZz'),
-            InlineKeyboardButton('💥 Group', url='https://t.me/+wuz7QvQUO3U4ODI1')
+            InlineKeyboardButton('🌟 Movie Channel', url='https://t.me/Cinemahost1'),
+            InlineKeyboardButton('💥 Group', url='https://t.me/+G_FirnoeF7xlMzVl')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('🤖 About', callback_data='about')
