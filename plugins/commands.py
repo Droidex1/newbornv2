@@ -47,8 +47,8 @@ async def start(client, message):
             InlineKeyboardButton('🔎 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('⚡ Updates', url='https://t.me/+5s5iZlCkrg85NDll')
             ],[
-            InlineKeyboardButton('🌟 Movie Channel', url='https://t.me/HuB_LinkZz'),
-            InlineKeyboardButton('💥 Group', url='https://t.me/+wuz7QvQUO3U4ODI1')
+            InlineKeyboardButton('🌟 Movie Channel', url='https://t.me/Cinemahost1'),
+            InlineKeyboardButton('💥 Group', url='https://t.me/+G_FirnoeF7xlMzVl')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('🤖 About', callback_data='about')
@@ -94,7 +94,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔎 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('⚡ Updates', url='https://t.me/+5s5iZlCkrg85NDll')
+            InlineKeyboardButton('⚡ Updates', url='https://t.me/chostengine')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('🤖 About', callback_data='about')
@@ -220,7 +220,8 @@ async def start(client, message):
             file = getattr(msg, filetype)
             title = file.file_name
             size=get_size(file.file_size)
-            f_caption = f"<code>{title}</code>"
+            f_caption = f"<code>{title}
+{size} / @cinemahost1 </code>"
             if CUSTOM_FILE_CAPTION:
                 try:
                     f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='')
