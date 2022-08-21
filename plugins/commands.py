@@ -227,6 +227,8 @@ async def start(client, message):
                 except:
                     return
             await msg.edit_caption(f_caption)
+            await asyncio.sleep(600)
+            await msg.delete()
             return
         except:
             pass
